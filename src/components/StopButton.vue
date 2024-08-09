@@ -7,8 +7,18 @@
 </template>
 
 <script setup>
-const click = () => {
-  console.log('stop')
+import { getJsonHttpsCall } from './ambisleep-rest'
+import { getEnv } from '@/common/shared'
+const click = async () => {
+  const urlRest = getEnv('VITE_AMBISLEEP_REST_URL')
+  console.log(`stop ${urlRest}`)
+
+  const url = `${urlRest}/stop`
+  console.log(`url? ${url}`)
+
+  const response = await getJsonHttpsCall({ url })
+
+  console.log(`response: ${JSON.stringify(response)}`)
 }
 </script>
 
@@ -32,8 +42,8 @@ const click = () => {
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid grey;
-  margin: 1rem;
-  height: 30vh;
+  margin: 0.3rem 1rem;
+  height: 28vh;
   width: 95vw;
   flex-grow: 1;
   background-color: red;
