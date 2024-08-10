@@ -36,23 +36,7 @@ const click = async () => {
 }
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  cursor: pointer;
-  border: 1px solid grey;
-  margin: 0.3rem 1rem;
-  height: 28vh;
-  width: 95vw;
-  flex-grow: 1;
-  background-color: red;
-}
-
-@media (min-width: 1024px) {
-  .container {
-    height: 95vh;
-    width: 31vw;
-  }
+  background-color: rgba(114, 38, 38, 0.959);
+  box-shadow: 5px 5px 5px rgb(206, 73, 12);
 }
 </style>

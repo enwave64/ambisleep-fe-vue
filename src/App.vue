@@ -1,8 +1,8 @@
 <template>
   <main>
     <div class="buttons">
-      <TrackButton :image-path="image1"></TrackButton>
-      <TrackButton :image-path="image2"></TrackButton>
+      <TrackButton :image-path="image1" :track-number="3"></TrackButton>
+      <TrackButton :image-path="image2" :track-number="1"></TrackButton>
       <StopButton image-path=""></StopButton>
     </div>
   </main>
