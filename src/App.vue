@@ -12,8 +12,8 @@
 import TrackButton from './components/TrackButton.vue'
 import StopButton from './components/StopButton.vue'
 
-const image1 = '../assets/rainsounds.png'
-const image2 = '../assets/relaxingwaterfalls.png'
+const image1 = '/rainsounds.png'
+const image2 = '/relaxingwaterfalls.png'
 </script>
 
 <style scoped>
