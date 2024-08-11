@@ -1,6 +1,13 @@
 # ambisleep-fe-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+## About
+This is a Vue based frontend  for [Ambisleep](https://github.com/enwave64/ambisleep). Ambisleep is a purpose built sleep machine assuming audio playback by [Music Player Daemon](https://www.musicpd.org/). The original Ambisleep was a fork of [Wolfgang](https://github.com/daed/wolfgang), python3 based, used Tkinter for a simple front end, and called MPC commands to play music files stored on the target machine.
+
+This version is just a front end, intended to make REST calls to [backend Go service](https://github.com/enwave64/go-home-auto/blob/main/restapi) on a Raspberry Pi (or some other player device running MPD) that handles the MPC commands.
+
+## Config
+
+Create an .env or .env.local file. Specify your backend service API URL like so: export VITE_AMBISLEEP_REST_URL="http://\<IP\>:\<port\>/api/v1"
 
 ## Recommended IDE Setup
 
