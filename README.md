@@ -7,7 +7,8 @@ This version is just a front end, intended to make REST calls to [backend Go ser
 
 ## Config
 
-Create an .env or .env.local file. Specify your backend service API URL like so: export VITE_AMBISLEEP_REST_URL="http://\<IP\>:\<port\>/api/v1"
+Create an .env or .env.local file. Specify your backend service API URL like so: 
+`export VITE_AMBISLEEP_REST_URL="http://\<IP\>:\<port\>/api/v1"`
 
 ## Recommended IDE Setup
 
