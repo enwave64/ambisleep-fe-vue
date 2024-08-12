@@ -14,6 +14,8 @@ Create an .env or .env.local file. Specify your backend service API URL like so:
 optional Dockerfile and nginx.conf for deployment/production, assuming closed intranet
 otherwise adjust accordingly
 
+Build: `docker build -t ambisleep-fe-vue .` \
+Run: `docker run -d -p <port>:<port> --name ambisleep-fe-vue  --restart=always ambisleep-fe-vue`
 
 ## Recommended IDE Setup
 
