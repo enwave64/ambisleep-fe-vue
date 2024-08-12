@@ -11,7 +11,7 @@ Create an .env or .env.local file. Specify your backend service API URL like so:
 `export VITE_AMBISLEEP_REST_URL="http://<URL|IP:port>/api/v1"`
 
 ### Deployment
-optional Dockerfile and nginx.conf for deployment/production, assumming closed intranet
+optional Dockerfile and nginx.conf for deployment/production, assuming closed intranet
 otherwise adjust accordingly
 
 
